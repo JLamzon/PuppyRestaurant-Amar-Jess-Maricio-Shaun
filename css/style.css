@@ -1,0 +1,20 @@
+/* universal */
+
+body
+{
+    max-width: 1920;
+}
+
+
+/* Jessie CSS */
+
+.flex-direction-row
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.align-info
+{
+    align-content: flex-end;
+}
