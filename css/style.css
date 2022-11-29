@@ -2,7 +2,7 @@
 
 body
 {
-    max-width: 1920px;
+    /* max-width: 1920px; */
     background-image: url(../assets/images/bgtexture.jpg);
 }
 
@@ -14,8 +14,29 @@ body
     font-family: Montauk-Regular;
     src: url(../assets/fonts/Montauk-Regular.otf);
 }
+@font-face {
+    font-family: Montauk-Light;
+    src: url(../assets/fonts/Montauk-Light.otf);
+}
+
 
 /* Jessie Home Page CSS */
+
+/* NavBar */
+.nav-link {
+    color: #5F002B;
+    font-size: 20px;
+    font-family: 'Fugaz One', cursive;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #5F002B;
+}
+
+/* Navbar End */
+
+
+/* Home Body */
 
 .flex-direction-row
 {
@@ -44,8 +65,8 @@ body
 .home-size-pic
 {
     max-width: 674px;
-    max-height: 449.5px;
-    height: 449.5px;
+    min-height: 449.5px;
+
 }
 
 .home-size-info
@@ -87,4 +108,41 @@ body
 {
     color: #5F002B;
     font-family: Montauk-Regular;
+}
+
+/* footer */
+
+.footer-size
+{
+    max-width: 1920px;;
+    max-height: 100%;
+}
+
+.foot-logo-size
+{
+    max-height: 31.6px;
+    max-width: 100px;
+}
+
+.footer-text
+{
+    font-family: Montauk-Light;
+    font-size: 20px;
+    color: #5F002B;
+    margin-left: 0rem;
+}
+
+.footer-space
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.footer-right
+{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
 }
