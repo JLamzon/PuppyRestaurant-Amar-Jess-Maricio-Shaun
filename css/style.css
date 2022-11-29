@@ -28,12 +28,20 @@ body {
     padding-left: 27px;
 }
 
-h1 {
+.menu-titlebox {
+    background-color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-title {
     color: #5F002B;
     font-size: 50px;
     font-family: 'Fugaz One', cursive;
-    background-color: white;
-    height: 80px;
+    padding-top: 15px;
+    
 }
 
 .menu-subcat {
