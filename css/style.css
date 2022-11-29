@@ -113,6 +113,8 @@ body
     }
   }
 
+/* Jessie Home Page CSS */
+
 .flex-direction-row
 {
     display: flex;
@@ -126,6 +128,9 @@ body
 
 .home-info
 {
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     gap: 1rem;
 }
 
@@ -146,11 +151,17 @@ body
 .home-banner-pic
 {
     max-width: 1920px;
+    max-width: 674px;
+    max-height: 449.5px;
+    height: 449.5px;
 }
 
 .home-size-info
 {
     min-width: 375px;
+
+    max-width: 950px;
+    max-height: 449.5px;
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -176,7 +187,7 @@ body
 
 .info-align
 {
-    
+    margin-top: 2rem;
     align-content: center;
     align-items: flex-start;
 }
@@ -187,6 +198,7 @@ body
     font-family: Fugaz One;
     color: #5F002B;
     padding-top: 2rem;
+    font-size: 50px;
 }
 
 .info-text
@@ -566,4 +578,7 @@ hr {
         min-height: 0;
         padding-bottom: 15px;
     }
+
+    /* font-size: 20px;  */
+    /* This is chopped up */
 }
