@@ -6,6 +6,15 @@ body
     background-image: url(../assets/images/bgtexture.jpg);
 }
 
+@font-face {
+    font-family: 'Fugaz One', cursive;;
+    src: url(../assets/fonts/FugazOne-Regular.ttf);
+}
+@font-face {
+    font-family: Montauk-Regular;
+    src: url(../assets/fonts/Montauk-Regular.otf);
+}
+
 /* Jessie Home Page CSS */
 
 .flex-direction-row
@@ -70,9 +79,12 @@ body
 .info-headline
 {
     font-size: 50px;
+    font-family: Fugaz One;
+    color: #5F002B;
 }
 
 .info-text
 {
-    font-size: 20px;
+    color: #5F002B;
+    font-family: Montauk-Regular;
 }
