@@ -436,6 +436,10 @@ body {
     color: #5F002B;
 }
 
+#nav-logo {
+    padding-left: 27px;
+}
+
 h1 {
     color: #5F002B;
     font-size: 50px;
@@ -444,10 +448,15 @@ h1 {
     height: 80px;
 }
 
-h2 {
+.menu-subcat {
     color: #5F002B;
     font-size: 30px;
     font-family: 'Fugaz One', cursive;
+    padding-top: 26px;
+}
+
+.menu-subtext {
+    margin-top: -5px;
 }
 
 h3 {
@@ -483,3 +492,26 @@ hr {
     padding-right: 0rem;
     overflow: hidden;
   }
+
+.menu-textbox {
+    padding-left: 35px;
+    margin-right: -20px;
+}
+
+.menu-price {
+    margin-top: 25px;
+    position: relative;
+    right: 25px;
+}
+
+.menu-item {
+    margin-top: 22px;
+}
+
+.menu-itemtext {
+    margin-top: -17px;
+}
+
+.menu-divider {
+    margin-top: -12px;
+}
