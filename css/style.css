@@ -1,6 +1,11 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 
+@font-face {
+    font-family: Montauk;
+    src: url("../assets/fonts/Montauk-Light.otf");
+}
+
 body {
     background-image: url("../assets/images/bgtexture.jpg");
 }
@@ -15,3 +20,54 @@ body {
     font-family: 'Fugaz One', cursive;
 }
 
+.nav-link:hover, .nav-link:focus {
+    color: #5F002B;
+}
+
+h1 {
+    color: #5F002B;
+    font-size: 50px;
+    font-family: 'Fugaz One', cursive;
+    background-color: white;
+    height: 80px;
+}
+
+h2 {
+    color: #5F002B;
+    font-size: 30px;
+    font-family: 'Fugaz One', cursive;
+}
+
+h3 {
+    color: #5F002B;
+    font-size: 35px;
+    font-family: Montauk;
+}
+
+p {
+    color: #5F002B;
+    font-size: 20px;
+    font-family: Montauk;
+}
+
+hr {
+    color: #5F002B;
+    width: 95%;
+    opacity: 1;
+}
+
+.menu-card {
+    min-height: 927px;
+    background-color: white;
+}
+
+.menu-img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-card, .menu-cont{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    overflow: hidden;
+  }
