@@ -2,11 +2,11 @@
 
 body
 {
-    max-width: 1920;
+    max-width: 1920px;
+    background-image: url(../assets/images/bgtexture.jpg);
 }
 
-
-/* Jessie CSS */
+/* Jessie Home Page CSS */
 
 .flex-direction-row
 {
@@ -16,5 +16,63 @@ body
 
 .align-info
 {
-    align-content: flex-end;
+    align-content: flex-start;
+}
+
+.home-info
+{
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    gap: 1rem;
+}
+
+.home-back-color
+{
+    background-color: #ffff;
+}
+
+.home-size-pic
+{
+    max-width: 674px;
+    max-height: 449.5px;
+    height: 449.5px;
+}
+
+.home-size-info
+{
+
+    max-width: 950px;
+    max-height: 449.5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.home-img-pad
+{
+    margin-right: 2rem;
+}
+
+.info-spread
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-align
+{
+    margin-top: 2rem;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.info-headline
+{
+    font-size: 50px;
+}
+
+.info-text
+{
+    font-size: 20px;
 }
