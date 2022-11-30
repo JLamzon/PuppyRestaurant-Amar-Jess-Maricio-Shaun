@@ -422,7 +422,11 @@ body {
     background-image: url("../assets/images/bgtexture.jpg");
 }
 
-.main-cont {
+.menu-page-cont {
+    max-width: 1640px;
+}
+
+.nav-cont {
     max-width: 1640px;
 }
 
