@@ -32,7 +32,12 @@ body {
     color: #5F002B;
 }
 
-#nav-logo {
+
+.navbar-toggler {
+    border-color: #5F002B;
+}
+
+.nav-logo {
     padding-left: 27px;
 }
 
@@ -94,7 +99,7 @@ hr {
     height: auto;
 }
 
-.menu-card, .menu-cont{
+.menu-card, .menu-cont, .nav-cont {
     padding-left: 0rem;
     padding-right: 0rem;
     overflow: hidden;
