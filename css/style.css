@@ -1,0 +1,52 @@
+body {
+    background-image: url("../assets/images/bgtexture.jpg");
+   
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
+  #AboutMain {
+    padding-bottom: 3.906rem;
+}
+#AboutMainImg {
+    width: 100%;
+}
+#AboutMainImgCol {
+    padding-left: 0;
+}
+#AboutMainTextBox {
+    background-color: white;
+}
+#AboutMainTitle {
+    padding-top: 1.875rem;
+    padding-left: 1rem;
+}
+#AboutMainText {
+    padding-left: 1rem;
+    padding-right: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
