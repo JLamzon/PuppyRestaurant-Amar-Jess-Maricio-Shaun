@@ -426,6 +426,10 @@ body {
     max-width: 1640px;
 }
 
+.nav-item {
+    padding-left: 30px;
+}
+
 .nav-link {
     color: #5F002B;
     font-size: 20px;
@@ -446,6 +450,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 35px;
+    margin-top: 35px;
 }
 
 .menu-title {
@@ -488,6 +494,7 @@ hr {
 .menu-card {
     min-height: 927px;
     background-color: white;
+    margin-top: 20px;
 }
 
 .menu-img {
