@@ -37,10 +37,12 @@ body
 
 
 /* Home Body */
-@media (min-width: 400px) {
-    .homeResponse { grid-template-columns: repeat(2, 1fr); }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="imageOne"] {
+      width: 100%;
+    }
   }
-
 .image-one
 {
     min-width: 1920px;
@@ -79,7 +81,7 @@ body
 .home-size-info
 {
 
-    max-width: 950px;
+    /* max-width: 1920px; */
     max-height: 449.5px;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -93,33 +95,52 @@ body
 
 
 /* ----------------------------------------------- */
-.home-col-section
+/* .home-col-section
 {
     display: flex;
-justify-content: space-between;
+    justify-content: space-between;
 }
 
 .home-col-border
 {
 
-    max-width: 674px;
-    max-height: 449.5px;
-margin-right: 4rem;
+    max-width: 700px;
+    min-height: 449.5px;
+    margin-right: 3rem;
+
 }
 
 .home-col-border-align
 {
     display: flex;
-    justify-content: end;
-}
+    /* justify-content: end; */
+/* }
 .home-col-border-pic
 {
     width: 100%;
     max-height: 449.5px;
     max-width: 674px;
-}
+} */
 /* ----------------------------------------------- */
 
+
+
+/* Next col test ------------------------------------*/
+
+.mid-sec-image
+{
+    max-width: 600px;
+    max-height: 430px;
+    margin-right: 2rem;
+}
+
+.mid-sec-info
+{
+    max-width: 690px;
+    max-height: 430px;
+}
+
+/* Next col test end ------------------------------------*/
 
 
 
