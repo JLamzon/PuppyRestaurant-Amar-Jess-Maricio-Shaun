@@ -392,6 +392,7 @@ body {
   
 .navbar-toggler {
     border-color: rgb(95,0,43);
+    border-width: 2px;
 }
 
 .navbar-toggler:focus {
