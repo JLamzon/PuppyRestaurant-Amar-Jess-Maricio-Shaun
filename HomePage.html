@@ -1,80 +1,101 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Puppy Restaurant</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body>
-
+  <body>
     <!--Nav Bar-->
 
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
-            <img src="./assets/images/MuzzlesLogo.png" width="250px" height="92px" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+      <a class="navbar-brand" href="#">
+        <img
+          src="./assets/images/MuzzlesLogo.png"
+          width="250px"
+          height="92px"
+          alt=""
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Menu</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Catering</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Photos</a>
-                </li>
-            </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Catering</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Photos</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <!--Nav Bar end-->
 
+    <!-- mid section -->
     <section>
-        <div class="">
-            <img class="img-fluid" src="/assets/images/homeHero.jpg" alt="tables image">
+      <img
+        class="img-fluid"
+        src="/assets/images/homeHero.jpg"
+        alt="tables image"
+      />
+      <div class="container-fluid d-flex justify-content-center home-info">
+        <div class="d-flex">
+          <img
+            class="img-fluid home-size-pic hidden-mobile appear-mobile"
+            src="/assets/images/homeSingle.jpg"
+            alt="plate of food"
+          />
         </div>
-
-                <div class="container-fluid d-flex justify-content-center home-info ">
-                    <div class="d-flex">
-                        <img class="img-fluid home-size-pic" src="/assets/images/homeSingle.jpg" alt="">
-                    </div>
-
-                    <div class="home-back-color info-spread">
-                        <div class="info-align home-size-info">
-                            <h3 class="info-headline">Muzzles Sandwiches & Grill</h3>
-                            <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                deserunt mollit anim id est laborum.
-                            </p>
-
-                        </div>
-                        <div class="">
-                            <img class="img-fluid" src="./assets/images/HomeImage.jpg" alt="">
-                        </div>
-
-                    </div>
-
-                </div>
+        <div class="home-back-color info-spread">
+          <div class="info-align home-size-info">
+            <h3 class="info-headline">Muzzles Sandwiches & Grill</h3>
+            <p class="info-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div>
+            <img
+              class="img-fluid"
+              src="./assets/images/HomeImage.jpg"
+              alt="pics of food"
+            />
+          </div>
+        </div>
+      </div>
     </section>
-
-
+    <!-- mid section end -->
 
     <!-- new test responsiveness -->
     <!-- <div class="container">
@@ -101,8 +122,7 @@
 </div> -->
     <!-- new test responsiveness end -->
 
-
-<!-- 
+    <!-- 
 
     <div class="row">
         <div class="col-sm-4">
@@ -119,49 +139,65 @@
                 <img class="img-fluid" src="./assets/images/HomeImage.jpg" alt=""></div>
 </div> -->
 
-<div class="row row-no-gutters d-flex justify-content-center">
-    <div class="col-sm-5 mid-sec-image" style="background-color:lavender;">
-        <img class="img-fluid d-flex home-col-border-pic mid-sec-image" src="/assets/images/homeSingle.jpg" alt=""></div>
-    <div class="col-sm-7 mid-sec-info" style="background-color:lavenderblush;">
-        <h3 class="info-headline">Muzzles Sandwiches & Grill</h3>
-        <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <img class="img-fluid" src="./assets/images/HomeImage.jpg" alt="">
+    <!-- <div class="row row-no-gutters d-flex justify-content-center mid-info-margin">
+    <div class="col-sm-5 mid-FontBG-Color">
+        <img class="img-fluid mid-sec-image" src="/assets/images/homeSingle.jpg" alt="">
     </div>
-  </div>
 
 
+    <div class="col-sm-6 home-back-color info-spread ">
+        <div class="">
+            <h3 class="info-headline">Muzzles Sandwiches & Grill</h3>
+            <br>
+            <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            
+            <div>
+                <img class="img-fluid" src="./assets/images/HomeImage.jpg" alt="">
+            </div>
+            
+        </div>
+
+    </div>
+  </div> -->
 
     <!-- Footer -->
     <footer class="">
-        <div class="container footer-size">
-            <div class="row d-flex justify-content-spread-evenly footer-text footer-space">
-                <div class="col-6">
-                    <p class="">
-                        1357 Mutt Street, Rottweiler CA. 12345
-                        <br>
-                        Phone: 123-456-7890
-                    </p>
-                </div>
-                <div class="col-6 footer-right">
-                    <p>
-                        <img class="foot-logo-size" src="./assets/images/CompanyLogo.png" alt="">
-                        <br>
-                        Copyright © Muzzles Restaurant
-                    </p>
-                </div>
-            </div>
+      <div class="container footer-size">
+        <div
+          class="row d-flex justify-content-spread-evenly footer-text footer-space"
+        >
+          <div class="col-6">
+            <p>
+              1357 Mutt Street, Rottweiler CA. 12345
+              <br />
+              Phone: 123-456-7890
+            </p>
+          </div>
+          <div class="col-6 footer-right">
+            <p>
+              <img
+                class="foot-logo-size"
+                src="./assets/images/CompanyLogo.png"
+                alt=""
+              />
+              <br />
+              Copyright © Muzzles Restaurant
+            </p>
+          </div>
         </div>
+      </div>
     </footer>
     <!-- footer end -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
