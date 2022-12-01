@@ -384,6 +384,7 @@ body {
 
 .nav-logo {
     padding-left: 27px;
+    width: 100%;
 }
 
 .navbar-toggler-icon {
@@ -399,7 +400,7 @@ body {
     box-shadow: 0 0 0 3px rgba(95, 0, 43, 1);;
 }
 
-.menu-titlebox {
+.generic-titlebox {
     background-color: white;
     height: 80px;
     display: flex;
@@ -457,7 +458,7 @@ hr {
     height: auto;
 }
 
-.menu-card, .menu-cont, .nav-cont {
+.menu-card, .menu-cont, .nav-cont, .photos-cont {
     padding-left: 0rem;
     padding-right: 0rem;
     overflow: hidden;
@@ -484,4 +485,23 @@ hr {
 
 .menu-divider {
     margin-top: -12px;
+}
+
+.photo {
+    outline: 10px solid white;
+    outline-offset: -10px;
+    width: 100%;
+    margin-top: 18px;
+}
+
+.photo-titlebox {
+    margin-bottom: 12px;
+}
+
+@media (max-width: 425px) {
+    .nav-logo {
+        padding-left: 0px;
+        width: 200px;
+        height: auto;
+    }
 }
