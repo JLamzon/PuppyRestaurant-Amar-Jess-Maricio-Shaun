@@ -18,7 +18,7 @@ body {
   li a {
     display: block;
     padding: 8px;
-    background-color: #dddddd;
+    background-color: transparent;
   }
 
   #AboutMain {
@@ -28,25 +28,20 @@ body {
     width: 100%;
 }
 #AboutMainImgCol {
-    padding-left: 0;
+    padding-left: 0rem;
 }
 #AboutMainTextBox {
     background-color: white;
+    width: 50%;
+    height: 29rem;
 }
 #AboutMainTitle {
-    padding-top: 1.875rem;
+    padding-top: 1rem;
     padding-left: 1rem;
 }
 #AboutMainText {
     padding-left: 1rem;
-    padding-right: 2.5rem;
+    padding-right: 10rem;
+    padding-bottom: 1rem;
 }
-
-
-
-
-
-
-
-
 
