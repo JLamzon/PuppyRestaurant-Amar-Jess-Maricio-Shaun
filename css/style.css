@@ -32,16 +32,24 @@ body {
 }
 #AboutMainTextBox {
     background-color: white;
-    width: 50%;
+    width: 58%;
     height: 29rem;
 }
 #AboutMainTitle {
     padding-top: 1rem;
     padding-left: 1rem;
+    font-family: ‘FugazOne-Regular’; src: url(“../assets/fonts/FugazOne-Regular.ttf”);
 }
 #AboutMainText {
     padding-left: 1rem;
     padding-right: 10rem;
     padding-bottom: 1rem;
-}
+    max-width: 100%;
+    max-height: 100%;
+    font-family: ‘FugazOne-Regular’; src: url(“../assets/fonts/FugazOne-Regular.otf”);
+  }
+
+  #AboutMainTitleText {
+    font-family: ‘FugazOne-Regular’; src: url(“../assets/fonts/FugazOne-Regular.ttf”);
+  }
 
