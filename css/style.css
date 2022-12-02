@@ -83,10 +83,11 @@ body
 .home-size-info
 {
 
-    max-width: 1100px;
-    /* max-height: 449.5px; */
+    min-width: 375px;
     padding-left: 2rem;
     padding-right: 2rem;
+    /* max-height: 449.5px; */
+
 }
 
 .home-size-info-pic
@@ -170,7 +171,7 @@ body
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 690px;
+    max-width: 750px;
 }
 
 .info-align
@@ -195,11 +196,65 @@ body
     font-size: 13px;
 }
 
+/* Catering Page */
+
+.cater-Banner
+{
+    display: flex;
+    justify-content: center;
+    background-color:#ffff;
+    color:#5F002B;
+    font-family: "Fugaz One";
+    font-size: 50px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.cater-banner-margins
+{
+    margin-bottom: 4rem;
+}
+
+.cater-Banner-Pic-Margin
+{
+    margin-bottom: 4rem;
+}
+
+.cater-Banner-Pic
+{
+    min-width: 300px;
+}
+
+/* .cater-info
+{
+    background-color: aqua;
+} */
+
+.cater-page-margin
+{
+max-width: 1300px;
+}
+
+
+.cater-Info-Title
+{
+    font-size: 30px;
+    font-family: 'Fugaz One';
+    color: #5F002B;
+}
+
+.cater-Info-Text
+{
+    font-size: 12px;
+    color: #5F002B;
+
+}
+
 /* footer */
 
 .footer-size
 {
-    max-width: 1920px;;
+    max-width: 1300px;;
     max-height: 100%;
 }
 
@@ -214,15 +269,13 @@ body
     font-family: Montauk-Light;
     font-size: 20px;
     color: #5F002B;
-    margin-left: 0rem;
 }
 
 .footer-space
 {
     display: flex;
     justify-content: space-between;
-    margin-right: 5rem;
-    margin-left: 5rem;
+    
 }
 
 .footer-right
@@ -231,3 +284,7 @@ body
     justify-content: flex-end;
     text-align: right;
 }
+
+/* end of Home Page */
+
+
