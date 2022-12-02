@@ -491,13 +491,13 @@ body {
     margin-top: -5px;
 }
 
-h3 {
+.menu-card h3 {
     color: #5F002B;
     font-size: 35px;
     font-family: Montauk;
 }
 
-p {
+.menu-card p {
     color: #5F002B;
     font-size: 20px;
     font-family: Montauk;
@@ -508,6 +508,14 @@ hr {
     width: 95%;
     opacity: 1;
 }
+
+/* .menu-row {
+    display: flex;
+}
+
+.menu-col {
+    flex: 1;
+} */
 
 .menu-card {
     min-height: 927px;
@@ -565,5 +573,62 @@ hr {
         padding-left: 0px;
         width: 200px;
         height: auto;
+    }
+
+    .menu-textbox {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: 0px;
+    }
+
+    .menu-subcat, .menu-card h3 {
+        font-size: 25px;
+    }
+
+
+    .menu-card p {
+        font-size: 16px;
+        padding-top: 15px;
+        line-height: 1.2;
+    }
+
+    .menu-price {
+        margin-top: 25px;
+        position: relative;
+        right: 0px;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .generic-titlebox {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .menu-title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-textbox {
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-right: 0px;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .menu-price {
+        text-align: right;
+    }
+
+    .menu-card {
+        min-height: 0;
+        padding-bottom: 15px;
     }
 }
