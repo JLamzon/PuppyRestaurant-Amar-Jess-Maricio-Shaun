@@ -25,6 +25,22 @@ body
     padding-right: 0;
 }
 
+.top-Margins
+{
+    margin-top: 3rem;
+}
+
+.bottom-Margins
+{
+    margin-bottom: 3rem;
+}
+
+.mobile-margins
+{
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
 /* Jessie Home Page CSS */
 
 /* NavBar */
@@ -71,8 +87,6 @@ body
     margin-top: 5rem;
     margin-bottom: 5rem;
     gap: 1rem;
-    margin-left: .5rem;
-    margin-right: .5rem;
 }
 
 .home-back-color
@@ -252,7 +266,7 @@ body
 
 .cater-info
 {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     margin-right: 0;
     margin-left: 0;
     gap: 1rem;
