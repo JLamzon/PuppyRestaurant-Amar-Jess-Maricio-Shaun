@@ -19,6 +19,34 @@ body
     src: url(../assets/fonts/Montauk-Light.otf);
 }
 
+@media (min-width: 768px)
+{
+  .regular-margin
+  {
+      margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 767px) {
+    .margin-on-mobile {
+        margin-bottom: 1rem;
+    }
+  }
+
+  @media (max-width: 751px) {
+    .hidden-mobile {
+        display: none;    }
+  }
+
+  @media (max-width: 767px)
+  {
+    .mobile-banner-margin{
+        margin-bottom: .5rem;
+    }
+  }
+
+
+
 .no-gutters
 {
     padding-left: 0;
@@ -64,11 +92,14 @@ body
 
 /*------------------------------------- Home Body */
 
-  @media (max-width: 800px) {
-    .hidden-mobile {
-      display: none;
+  @media (max-width: 420px) {
+    .home-mobile-margin {
+      margin-left: 1rem;
+      margin-right: 1rem;
     }
   }
+
+
 
 .flex-direction-row
 {
@@ -198,16 +229,10 @@ body
     padding-bottom: 1rem;
 } 
 
-.cater-banner-Bmargins
+/* .cater-banner-Bmargins
 {
     margin-bottom: 4rem;
-}
-
-@media (max-width: 768px) {
-    .mobile-margin {
-      margin-bottom: .5rem;
-    }
-  }
+} */
 
 .cater-Banner-Pic
 {
@@ -215,7 +240,6 @@ body
     min-height: 100%;
     min-width: 350px;
     object-fit: cover;
-    
 }
 
 .cater-pic-margin
@@ -231,11 +255,11 @@ body
 
 .cater-info
 {
-    margin-bottom: 3rem;
     margin-right: 0;
     margin-left: 0;
     gap: 1rem;
-    max-height: 810px;
+    max-height: auto;
+    overflow: hidden;
 }
 
 .cater-info-color
@@ -252,6 +276,11 @@ body
 .cater-page-margin
 {
 max-width: 1300px;
+}
+
+.cater-image
+{
+    max-width: 100%;
 }
 
 
@@ -291,9 +320,9 @@ max-width: 1300px;
 
 /* ------------------------------------footer */
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
     .smaller-fonts {
-      font-size: 13px;
+      font-size: 12px;
     }
   }
 
