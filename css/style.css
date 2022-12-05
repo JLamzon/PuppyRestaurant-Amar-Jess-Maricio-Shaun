@@ -418,10 +418,6 @@ max-width: 1300px;
     src: url("../assets/fonts/Montauk-Light.otf");
 }
 
-body {
-    background-image: url("../assets/images/bgtexture.jpg");
-}
-
 .menu-page-cont {
     max-width: 1640px;
 }
