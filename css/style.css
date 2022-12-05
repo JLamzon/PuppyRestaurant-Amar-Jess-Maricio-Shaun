@@ -3,53 +3,77 @@ body {
    
   }
 
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-
-  li {
-    float: left;
-  }
-
-  li a {
-    display: block;
-    padding: 8px;
-    background-color: transparent;
-  }
-
-  #AboutMain {
-    padding-bottom: 3.906rem;
+h1 {
+    font-family: 'Fugaz One', cursive;
+    color: #5F002B;
+    font-size: 2rem;
 }
-#AboutMainImg {
-    width: 100%;
+
+h2 {
+    font-family: 'Fugaz One', cursive;
+    color: #5F002B;
+    font-size: 1.2rem;
 }
-#AboutMainImgCol {
-    padding-left: 0rem;
+
+@font-face {
+    font-family: ‘Montauk-Regular’;
+    src: url(“../assets/fonts/Montauk-Regular/Montauk-Regular.otf”);
 }
-#AboutMainTextBox {
+
+@font-face {
+    font-family: 'Montauk-Regular';
+    src: url("../assets/fonts/Montauk-Regular/Montauk-Regular.otf");    
+}
+
+p {
+    color: #5F002B;
+    font-size: 0.755rem;
+}
+
+.navbar {
+    padding-bottom: 2.563rem;
+}
+
+.NavBarTextFormat {
+    display: flex;
+    justify-content: right;
+}
+
+.NavBarText {
+    font-family: 'Fugaz One', cursive;
+    color: #5F002B;
+    display: flex;
+}
+
+.Header {
+    text-align: center;
     background-color: white;
-    width: 58%;
-    height: 29rem;
+    line-height: 3rem;
 }
-#AboutMainTitle {
-    padding-top: 1rem;
-    padding-left: 1rem;
-    font-family: ‘FugazOne-Regular’; src: url(“../assets/fonts/FugazOne-Regular.ttf”);
-}
-#AboutMainText {
-    padding-left: 1rem;
-    padding-right: 10rem;
-    padding-bottom: 1rem;
-    max-width: 100%;
-    max-height: 100%;
-    font-family: ‘FugazOne-Regular’; src: url(“../assets/fonts/FugazOne-Regular.otf”);
-  }
 
-  #AboutMainTitleText {
-    font-family: ‘FugazOne-Regular’; src: url(“../assets/fonts/FugazOne-Regular.ttf”);
-  }
+.footer {
+    margin-top: auto;
+    padding: 0;
+}
+
+.CompanyLogo {
+    max-width: 6.75rem;
+    max-height: 1.97rem;
+}
+
+.FooterLeft {
+    display: flex;
+    justify-content: left;
+}
+
+.FooterRight {
+    display: flex;
+    justify-content: right;
+}
+
+
+p {
+    color: #5F002B;
+    font-size: 0.755rem;
+}
 
