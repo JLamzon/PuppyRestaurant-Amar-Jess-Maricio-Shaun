@@ -388,11 +388,17 @@ max-width: 1300px;
     
 } */
 
+.foot-padding
+{
+    margin-right: 0;
+}
+
 .footer-right
 {
     display: flex;
     justify-content: flex-end;
     text-align: right;
+    margin-right: .3rem;
 }
 
 .align-foot
