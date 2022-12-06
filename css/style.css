@@ -139,9 +139,9 @@ body {
     align-content: flex-start;
 }
 
-.home-info {
-    gap: 1rem;
-}
+/* .home-info {
+    margin-bottom: 4rem;
+} */
 
 .home-back-color {
     background-color: #ffff;
@@ -157,6 +157,7 @@ body {
 
 .home-banner-pic {
     max-width: 1920px;
+    margin-bottom: 4rem;
 }
 
 .home-size-info {
