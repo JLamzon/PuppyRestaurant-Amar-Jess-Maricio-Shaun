@@ -436,7 +436,8 @@ max-width: 1300px;
     font-family: 'Fugaz One', cursive;
 }
 
-.nav-link:hover, .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: #5F002B;
 }
 
@@ -448,14 +449,14 @@ max-width: 1300px;
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(95,0,43, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-  
+
 .navbar-toggler {
-    border-color: rgb(95,0,43);
+    border-color: rgb(95, 0, 43);
     border-width: 2px;
 }
 
 .navbar-toggler:focus {
-    box-shadow: 0 0 0 3px rgba(95, 0, 43, 1);;
+    box-shadow: 0 0 0 3px rgba(95, 0, 43, 1);
 }
 
 .generic-titlebox {
@@ -473,7 +474,6 @@ max-width: 1300px;
     font-size: 50px;
     font-family: 'Fugaz One', cursive;
     padding-top: 15px;
-    
 }
 
 .menu-subcat {
@@ -525,11 +525,14 @@ hr {
     height: auto;
 }
 
-.menu-card, .menu-cont, .nav-cont, .photos-cont {
+.menu-card,
+.menu-cont,
+.nav-cont,
+.photos-cont {
     padding-left: 0rem;
     padding-right: 0rem;
     overflow: hidden;
-  }
+}
 
 .menu-textbox {
     padding-left: 35px;
@@ -578,7 +581,8 @@ hr {
         margin-right: 0px;
     }
 
-    .menu-subcat, .menu-card h3 {
+    .menu-subcat,
+    .menu-card h3 {
         font-size: 25px;
     }
 
