@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+@font-face {
+    font-family: Montauk;
+    src: url("../assets/fonts/Montauk-Light.otf");
+}
+
+
+@font-face {
+    font-family: 'Fugaz One', cursive;
+    src: url(../assets/fonts/FugazOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montauk-Regular;
+    src: url(../assets/fonts/Montauk-Regular.otf);
+}
+
+@font-face {
+    font-family: Montauk-Light;
+    src: url(../assets/fonts/Montauk-Light.otf);
+}
 
 .BodyMargins {
     margin-left: 6rem;
@@ -300,28 +322,6 @@ p {
 /* --------------------------Jessie Home Page CSS */
 /* universal */
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
-
-@font-face {
-    font-family: Montauk;
-    src: url("../assets/fonts/Montauk-Light.otf");
-}
-
-
-@font-face {
-    font-family: 'Fugaz One', cursive;
-    src: url(../assets/fonts/FugazOne-Regular.ttf);
-}
-
-@font-face {
-    font-family: Montauk-Regular;
-    src: url(../assets/fonts/Montauk-Regular.otf);
-}
-
-@font-face {
-    font-family: Montauk-Light;
-    src: url(../assets/fonts/Montauk-Light.otf);
-}
 
 body {
     background-image: url(../assets/images/bgtexture.jpg);
