@@ -297,7 +297,7 @@ p {
     color: #5F002B;
     font-size: 0.755rem;
 }
-
+/* --------------------------Jessie Home Page CSS */
 /* universal */
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
@@ -398,9 +398,6 @@ body {
 .no-overflow {
     overflow: hidden;
 }
-
-
-/* -------------------------------Jessie Home Page CSS */
 
 
 /* NavBar */
