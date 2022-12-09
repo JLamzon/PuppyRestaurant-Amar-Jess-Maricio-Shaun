@@ -21,11 +21,16 @@
     src: url(../assets/fonts/Montauk-Light.otf);
 }
 
-.BodyMargins {
+/* .BodyMargins {
     margin-left: 6rem;
     margin-right: 6rem;
-}
+} */
 
+.about-width {
+    max-width: 1640px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
 #AboutMain {
     padding-bottom: 3.906rem;
@@ -33,6 +38,8 @@
 
 #AboutMainImg {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #AboutMainImgCol {
@@ -45,11 +52,11 @@
 
 #AboutMainTitle {
     padding-top: 1.875rem;
-    padding-left: 1rem;
+    padding-left: 30px;
 }
 
 #AboutMainText {
-    padding-left: 1rem;
+    padding-left: 30px;
     padding-right: 2.5rem;
 }
 
@@ -77,12 +84,17 @@
     padding-left: 0;
 }
 
+.ChefCardMid {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
 .ChefCardRight {
     padding-right: 0;
 }
 
 .ChefCardImg {
-    height: 26rem;
+    height: 533px;
     object-fit: cover;
 }
 
@@ -157,61 +169,54 @@
 
 @media screen and (max-width: 1440px) {
     #AboutMainText {
-        font-size: 0.7rem;
+        font-size: 18px;
     }
-
+    #AboutMainTitle {
+        font-size: 40px;
+    }
 }
 
-@media screen and (max-width: 1330px) {
+/* @media screen and (max-width: 1330px) {
     #AboutMainText {
-        font-size: 0.6rem;
+        font-size: 16px;
     }
+} */
 
-}
-
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
     #AboutMainText {
-        font-size: 0.55rem;
+        font-size: 15px;
     }
+} */
 
-}
-
-@media screen and (max-width: 1140px) {
+/* @media screen and (max-width: 1140px) {
     #AboutMainText {
         font-size: 0.525rem;
     }
+} */
 
-}
-
-@media screen and (max-width: 1106px) {
+/* @media screen and (max-width: 1106px) {
     #AboutMainText {
         font-size: 0.55rem;
     }
+} */
 
-}
-
-@media screen and (max-width: 1106px) {
-
+/* @media screen and (max-width: 1106px) {
     .BodyMargins {
         margin-left: 0rem;
         margin-right: 0rem;
     }
-
-}
+} */
 
 @media screen and (max-width: 452px) {
-
     #AboutMainTitle {
-        font-size: 1.75rem;
+        font-size: 33px;
     }
-
 }
 
 @media screen and (max-width: 992px) {
     .ChefCardImg {
         height: 15rem;
     }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -249,13 +254,14 @@ body {
 h1 {
     font-family: 'Fugaz One', cursive;
     color: #5F002B;
-    font-size: 2rem;
+    font-size: 50px;
 }
 
 h2 {
     font-family: 'Fugaz One', cursive;
     color: #5F002B;
-    font-size: 1.2rem;
+    font-size: 30px;
+    padding-left: 20px;
 }
 
 @font-face {
@@ -266,11 +272,6 @@ h2 {
 @font-face {
     font-family: 'Montauk-Regular';
     src: url("../assets/fonts/Montauk-Regular/Montauk-Regular.otf");
-}
-
-p {
-    color: #5F002B;
-    font-size: 0.755rem;
 }
 
 .navbar {
@@ -292,6 +293,7 @@ p {
     text-align: center;
     background-color: white;
     line-height: 3rem;
+    padding: 15px;
 }
 
 .footer {
@@ -316,8 +318,16 @@ p {
 
 
 p {
+    font-family: Montauk;
     color: #5F002B;
-    font-size: 0.755rem;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.card-text {
+    padding-left: 14px;
+    padding-right: 29px;
+    padding-bottom: 20px;
 }
 
 /* --------------------------Jessie Home Page CSS */
@@ -455,8 +465,8 @@ body {
     padding-left: 0;
     padding-right: 0;
 }
-.home-pic-img
-{
+
+.home-pic-img {
     width: 100%;
 }
 
@@ -543,7 +553,7 @@ body {
     color: #5F002B;
     font-family: "Fugaz One";
     font-size: 50px;
-    padding: .5rem;
+    padding: .625rem;
 }
 
 /* .cater-banner-Bmargins
@@ -730,7 +740,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 35px;
-    margin-top: 35px;
+    /* margin-top: 35px; */
 }
 
 .menu-title {
@@ -782,6 +792,7 @@ hr {
     height: auto;
 }
 
+.about-width,
 .menu-card,
 .menu-cont,
 .nav-cont,
@@ -865,7 +876,8 @@ hr {
         margin-bottom: 0px;
     }
 
-    .menu-title {
+    .menu-title,
+    .cater-Banner {
         font-size: 40px;
     }
 }
@@ -893,9 +905,9 @@ hr {
 
 /* universal */
 
-body {
-    /* max-width: 1920; */
-}
+/* body {
+    max-width: 1920;
+} */
 
 
 /* Jessie CSS */

@@ -16,35 +16,47 @@
 
 <body class="BodyMargins">
 
-  <nav class="navbar navbar-expand-lg">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img class="NavBarImg mx-1" src="assets/images/MuzzlesLogo.png" alt="MuzzelsLogo">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse NavBarTextFormat" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link NavBarText mx-3" href="./about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link NavBarText mx-3" href="./menu.html">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link NavBarText mx-3" href="./catering.html">Catering</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link NavBarText mx-3" href="./photos.html">Photo</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <!-- Start Navbar -->
+  <div class="container-fluid nav-cont">
 
-  <div id="AboutMain" class="container">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img class="nav-logo" src="./assets/images/MuzzlesLogo.png" width="250px" height="92px"
+            alt="Cursive Muzzles logo">
+        </a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./catering.html">Catering</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./photos.html">Photo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  <!-- End Navbar -->
+
+
+  <div class="container-fluid about-cont">
+
+
+  <div id="AboutMain" class="container-fluid about-width">
     <div class="row">
       <div id="AboutMainImgCol" class="col-5 d-none d-lg-block">
         <img id="AboutMainImg" src="assets/images/AboutMain.jpg" alt="About Main">
@@ -79,20 +91,19 @@
     </div>
   </div>
 
-  <div class="container">
-  <div id="OurTeamTitle" class="row">
-    <div class="col-12 HeaderCol">
-      <h2 class="Header">Our Team</h2>
+  <div class="container-fluid about-width">
+    <div id="OurTeamTitle" class="row">
+      <div class="col-12 HeaderCol">
+        <h2 class="Header">Our Team</h2>
+      </div>
     </div>
   </div>
-</div>
 
-  <div class="container ChefCardsTop">
+  <div class="container-fluid about-width ChefCardsTop">
     <div class="row">
       <div class="col-sm-12 col-md-4 ChefCardWidth ChefCardLeft  d-flex align-items-stretch">
         <div class="card ChefCards" style="width: 100%;">
-          <img src="assets/images/doxie3.jpg"
-            class="card-img-top ChefCardLeft ChefCards ChefCardImg" alt="...">
+          <img src="assets/images/doxie3.jpg" class="card-img-top ChefCardLeft ChefCards ChefCardImg" alt="...">
           <div class="card-body">
             <h2>George</h2>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -102,10 +113,9 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-12 col-md-4 ChefCardWidth  d-flex align-items-stretch">
+      <div class="col-sm-12 col-md-4 ChefCardWidth ChefCardMid d-flex align-items-stretch">
         <div class="card ChefCards" style="width: 100%;">
-          <img src="assets/images/jackrussel.jpg" class="card-img-top ChefCards ChefCardImg"
-            alt="...">
+          <img src="assets/images/jackrussel.jpg" class="card-img-top ChefCards ChefCardImg" alt="...">
           <div class="card-body">
             <h2>Butterscotch</h2>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -117,8 +127,7 @@
       </div>
       <div class="col-sm-12 col-md-4 ChefCardWidth ChefCardRight  d-flex align-items-stretch">
         <div class="card ChefCards" style="width: 100%;">
-          <img src="assets/images/doxie1.jpg"
-            class="card-img-top ChefCardRight ChefCards ChefCardImg" alt="...">
+          <img src="assets/images/doxie1.jpg" class="card-img-top ChefCardRight ChefCards ChefCardImg" alt="...">
           <div class="card-body">
             <h2>Louie</h2>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -131,12 +140,11 @@
     </div>
   </div>
 
-  <div class="container ChefCardsBottom">
+  <div class="container about-width ChefCardsBottom">
     <div class="row">
       <div class="col-sm-12 col-md-4 ChefCardWidth ChefCardLeft  d-flex align-items-stretch">
         <div class="card ChefCards" style="width: 100%;">
-          <img src="assets/images/novascotia.jpg"
-            class="card-img-top ChefCardLeft ChefCards ChefCardImg" alt="...">
+          <img src="assets/images/novascotia.jpg" class="card-img-top ChefCardLeft ChefCards ChefCardImg" alt="...">
           <div class="card-body">
             <h2>Willow</h2>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -146,10 +154,9 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-12 col-md-4 ChefCardWidth  d-flex align-items-stretch">
+      <div class="col-sm-12 col-md-4 ChefCardWidth ChefCardMid d-flex align-items-stretch">
         <div class="card ChefCards" style="width: 100%;">
-          <img src="assets/images/doxie2.jpg" class="card-img-top ChefCards ChefCardImg"
-            alt="...">
+          <img src="assets/images/doxie2.jpg" class="card-img-top ChefCards ChefCardImg" alt="...">
           <div class="card-body">
             <h2>Skittles</h2>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -161,8 +168,7 @@
       </div>
       <div class="col-sm-12 col-md-4 ChefCardWidth ChefCardRight  d-flex align-items-stretch">
         <div class="card ChefCards" style="width: 100%;">
-          <img src="assets/images/staffie.jpg"
-            class="card-img-top ChefCardRight ChefCards ChefCardImg" alt="...">
+          <img src="assets/images/staffie.jpg" class="card-img-top ChefCardRight ChefCards ChefCardImg" alt="...">
           <div class="card-body">
             <h2>Mario</h2>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -175,7 +181,11 @@
     </div>
   </div>
 
-  <div class="footer container">
+
+  </div>
+
+
+  <div class="footer about-width container">
     <div class="row">
       <div class="col-6 FooterLeft">
         <p class="footerText">1357 Mutt Street, Rottweiler CA. 12345</p>
