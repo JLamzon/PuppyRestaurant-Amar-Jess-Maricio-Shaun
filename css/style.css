@@ -24,197 +24,197 @@
 .BodyMargins {
     margin-left: 6rem;
     margin-right: 6rem;
-  }
-  
-  
-  #AboutMain {
+}
+
+
+#AboutMain {
     padding-bottom: 3.906rem;
-  }
-  
-  #AboutMainImg {
+}
+
+#AboutMainImg {
     width: 100%;
-  }
-  
-  #AboutMainImgCol {
+}
+
+#AboutMainImgCol {
     padding-left: 0;
-  }
-  
-  #AboutMainTextBox {
+}
+
+#AboutMainTextBox {
     background-color: white;
-  }
-  
-  #AboutMainTitle {
+}
+
+#AboutMainTitle {
     padding-top: 1.875rem;
     padding-left: 1rem;
-  }
-  
-  #AboutMainText {
+}
+
+#AboutMainText {
     padding-left: 1rem;
     padding-right: 2.5rem;
-  }
-  
-  .HeaderCol {
+}
+
+.HeaderCol {
     padding: 0;
-  }
-  
-  #OurTeamTitle {
+}
+
+#OurTeamTitle {
     padding-bottom: 2rem;
-  }
-  
-  .ChefCards {
+}
+
+.ChefCards {
     border-radius: 0;
-  }
-  
-  .ChefCardsTop {
+}
+
+.ChefCardsTop {
     padding-bottom: 1rem;
-  }
-  
-  .ChefCardsBottom {
+}
+
+.ChefCardsBottom {
     padding-bottom: 6rem;
-  }
-  
-  .ChefCardLeft {
+}
+
+.ChefCardLeft {
     padding-left: 0;
-  }
-  
-  .ChefCardRight {
+}
+
+.ChefCardRight {
     padding-right: 0;
-  }
-  
-  .ChefCardImg {
+}
+
+.ChefCardImg {
     height: 26rem;
     object-fit: cover;
-  }
+}
 
-  
-  #HeaderContainer {
+
+#HeaderContainer {
     padding-bottom: 2rem;
-  }
-  
-  .MenuCardsTop {
+}
+
+.MenuCardsTop {
     padding-bottom: 1rem;
-  }
-  
-  .MenuCardsBottom {
+}
+
+.MenuCardsBottom {
     padding-bottom: 6rem;
-  }
-  
-  .MenuCardLeft {
-  padding-left: 0;
-  }
-  
-  .MenuCardRight {
-  padding-right: 0;
-  }
-  
-  .MenuCards {
+}
+
+.MenuCardLeft {
+    padding-left: 0;
+}
+
+.MenuCardRight {
+    padding-right: 0;
+}
+
+.MenuCards {
     border-radius: 0;
-  }
-  
-  .MenuCardImg {
+}
+
+.MenuCardImg {
     border-radius: 0;
-  }
-  
-  .MenuCardTopRow {
-    font-family: ‘Montauk-Regular’;
-    src: url(“../assets/fonts/Montauk-Regular/Montauk-Regular.otf”);
-  }
-  
-  .MenuCardPrice {
+}
+
+.MenuCardTopRow {
+    font-family: "Montauk-Regular";
+    src: url("../assets/fonts/Montauk-Regular/Montauk-Regular.otf");
+}
+
+.MenuCardPrice {
     text-align: end;
-  }
-  
-  .MenuCardTextSpaceing {
+}
+
+.MenuCardTextSpaceing {
     padding-bottom: 2rem;
-  }
-  
-  .MenuCardBottomRow {
+}
+
+.MenuCardBottomRow {
     border-bottom: 0.1rem solid #5F002B;
-  }
-  
-  .MenuCardText {
+}
+
+.MenuCardText {
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-  
-  .MenuMobileSections {
+}
+
+.MenuMobileSections {
     padding-bottom: 3rem;
-  }
-  
-  .MenuMobileBG {
+}
+
+.MenuMobileBG {
     padding-top: 1rem;
     background-color: white;
-  }
-  
-  .MobileMenuTitle {
+}
+
+.MobileMenuTitle {
     text-align: center;
     font-size: 1.5rem;
-  }
-  
-  .MobileMenuText {
+}
+
+.MobileMenuText {
     text-align: center;
-  }
-  
-  @media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1440px) {
     #AboutMainText {
         font-size: 0.7rem;
     }
-    
-  }
-  
-  @media screen and (max-width: 1330px) {
+
+}
+
+@media screen and (max-width: 1330px) {
     #AboutMainText {
         font-size: 0.6rem;
     }
-    
-  }
-  
-  @media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1200px) {
     #AboutMainText {
         font-size: 0.55rem;
     }
-    
-  }
-  
-  @media screen and (max-width: 1140px) {
+
+}
+
+@media screen and (max-width: 1140px) {
     #AboutMainText {
         font-size: 0.525rem;
     }
-    
-  }
-  
-  @media screen and (max-width: 1106px) {
+
+}
+
+@media screen and (max-width: 1106px) {
     #AboutMainText {
         font-size: 0.55rem;
     }
-    
-  }
-  
-  @media screen and (max-width: 1106px) {
-  
+
+}
+
+@media screen and (max-width: 1106px) {
+
     .BodyMargins {
         margin-left: 0rem;
         margin-right: 0rem;
     }
-    
-  }
-  
-  @media screen and (max-width: 452px) {
-  
+
+}
+
+@media screen and (max-width: 452px) {
+
     #AboutMainTitle {
         font-size: 1.75rem;
     }
-    
-  }
-  
-  @media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 992px) {
     .ChefCardImg {
         height: 15rem;
     }
-    
-  }
-  
-  @media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 768px) {
     .ChefCardWidth {
         width: 80%;
         padding-left: 0;
@@ -223,28 +223,28 @@
         margin-left: auto;
         margin-right: auto;
     }
-  
+
     .ChefCardsTop {
         padding-bottom: 0;
     }
-  }
-  
-  @media screen and (max-width: 437px) {
+}
+
+@media screen and (max-width: 437px) {
     .footerText {
         font-size: 0.5rem;
     }
-  }
-  
-  @media screen and (max-width: 354px) {
-  .NavBarImg {
-    width: 75%;
-  }
-  }
+}
 
-  body {
+@media screen and (max-width: 354px) {
+    .NavBarImg {
+        width: 75%;
+    }
+}
+
+body {
     background-image: url("../assets/images/bgtexture.jpg");
-   
-  }
+
+}
 
 h1 {
     font-family: 'Fugaz One', cursive;
@@ -265,7 +265,7 @@ h2 {
 
 @font-face {
     font-family: 'Montauk-Regular';
-    src: url("../assets/fonts/Montauk-Regular/Montauk-Regular.otf");    
+    src: url("../assets/fonts/Montauk-Regular/Montauk-Regular.otf");
 }
 
 p {
@@ -319,13 +319,14 @@ p {
     color: #5F002B;
     font-size: 0.755rem;
 }
+
 /* --------------------------Jessie Home Page CSS */
 /* universal */
 /* Google Fonts */
 
 body {
     background-image: url(../assets/images/bgtexture.jpg);
-    max-width: 2030px;
+    /* max-width: 2030px; */
 }
 
 @media (min-width: 769px) {
@@ -347,7 +348,7 @@ body {
     }
 }
 
-@media (max-width: 751px) {
+@media (max-width: 991px) {
     .hidden-mobile {
         display: none;
     }
@@ -876,7 +877,7 @@ hr {
 /* universal */
 
 body {
-    max-width: 1920;
+    /* max-width: 1920; */
 }
 
 
