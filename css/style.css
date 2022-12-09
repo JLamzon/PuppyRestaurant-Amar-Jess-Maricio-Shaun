@@ -94,7 +94,7 @@
 }
 
 .ChefCardImg {
-    height: 533px;
+    /* height: 533px; */
     object-fit: cover;
 }
 
@@ -103,76 +103,15 @@
     padding-bottom: 2rem;
 }
 
-.MenuCardsTop {
-    padding-bottom: 1rem;
-}
-
-.MenuCardsBottom {
-    padding-bottom: 6rem;
-}
-
-.MenuCardLeft {
-    padding-left: 0;
-}
-
-.MenuCardRight {
-    padding-right: 0;
-}
-
-.MenuCards {
-    border-radius: 0;
-}
-
-.MenuCardImg {
-    border-radius: 0;
-}
-
-.MenuCardTopRow {
-    font-family: "Montauk-Regular";
-    src: url("../assets/fonts/Montauk-Regular/Montauk-Regular.otf");
-}
-
-.MenuCardPrice {
-    text-align: end;
-}
-
-.MenuCardTextSpaceing {
-    padding-bottom: 2rem;
-}
-
-.MenuCardBottomRow {
-    border-bottom: 0.1rem solid #5F002B;
-}
-
-.MenuCardText {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.MenuMobileSections {
-    padding-bottom: 3rem;
-}
-
-.MenuMobileBG {
-    padding-top: 1rem;
-    background-color: white;
-}
-
-.MobileMenuTitle {
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-.MobileMenuText {
-    text-align: center;
-}
-
 @media screen and (max-width: 1440px) {
     #AboutMainText {
         font-size: 18px;
+        padding-right: 30px;
     }
     #AboutMainTitle {
         font-size: 40px;
+        padding-left: 30px;
+        padding-right: 25px;
     }
 }
 
@@ -214,9 +153,9 @@
 }
 
 @media screen and (max-width: 992px) {
-    .ChefCardImg {
+    /* .ChefCardImg {
         height: 15rem;
-    }
+    } */
 }
 
 @media screen and (max-width: 768px) {
@@ -635,6 +574,12 @@ body {
 
 /* ------------------------------------footer */
 
+@media (max-width: 1015px) {
+    .three-photo-width {
+        width: 100%;
+    }
+}
+
 @media (max-width: 500px) {
     .smaller-fonts {
         font-size: 12px;
@@ -755,6 +700,7 @@ body {
     font-size: 30px;
     font-family: 'Fugaz One', cursive;
     padding-top: 26px;
+    padding-left: 0px;
 }
 
 .menu-subtext {
@@ -771,6 +717,7 @@ body {
     color: #5F002B;
     font-size: 20px;
     font-family: Montauk;
+    line-height: 1.4;
 }
 
 hr {
