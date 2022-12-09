@@ -21,6 +21,11 @@
     src: url(../assets/fonts/Montauk-Light.otf);
 }
 
+.bottom-padding
+{
+    padding-bottom: 3rem;
+}
+
 /* .BodyMargins {
     margin-left: 6rem;
     margin-right: 6rem;
