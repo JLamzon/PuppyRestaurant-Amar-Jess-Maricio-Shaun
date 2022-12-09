@@ -430,8 +430,8 @@ body {
 
 .home-size-info {
     min-width: 375px;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 2.6rem;
+    padding-right: 3.8rem;
 }
 
 .home-size-info-pic {
@@ -485,7 +485,7 @@ body {
 }
 
 .info-headline {
-    font-size: 35px;
+    font-size: 50px;
     font-family: Fugaz One;
     color: #5F002B;
     padding-top: 2rem;
@@ -493,7 +493,7 @@ body {
 
 .info-text {
     color: #5F002B;
-    font-family: Montauk-Regular;
+    font-family: Montauk-Light;
     font-size: 20px;
 }
 
