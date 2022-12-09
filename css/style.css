@@ -444,6 +444,11 @@ body {
     padding: 2rem;
 }
 
+.banner-size
+{
+    max-width: 1920px;
+}
+
 .home-size-pic {
     max-width: 674px;
     min-width: 365px;
