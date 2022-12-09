@@ -438,10 +438,14 @@ body {
 }
 
 .home-size-pic {
-    max-width: 500px;
+    max-width: 674px;
     min-width: 365px;
     padding-left: 0;
     padding-right: 0;
+}
+.home-pic-img
+{
+    width: 100%;
 }
 
 .home-banner-pic {
@@ -494,7 +498,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 800px;
+    max-width: 950px;
     padding: 0;
 }
 
@@ -514,7 +518,7 @@ body {
 .info-text {
     color: #5F002B;
     font-family: Montauk-Regular;
-    font-size: 13px;
+    font-size: 20px;
 }
 
 /* ---------------Catering Page -------------------*/
@@ -621,7 +625,6 @@ body {
 
 .footer-size {
     max-width: 1640px;
-    ;
     max-height: 100%;
 }
 
